@@ -1,6 +1,6 @@
 # keycloak-login
 
-This repository now includes a minimal [Next.js](https://nextjs.org/) setup.
+This repository contains a simple [Next.js](https://nextjs.org/) project with a Bootstrap-powered login screen.
 
 ## Running locally
 
@@ -11,4 +11,4 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000` in your browser to see the app.
+Open `http://localhost:3000` in your browser to view the login page.
