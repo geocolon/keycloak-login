@@ -14,17 +14,24 @@ npm run dev
 Open `http://localhost:3000` in your browser to view the login page.
 
 ## Docker locally
-1. Stop and Remove Containers:
+
+
+Start a Docker container with Dockerfile.
+```
+docker build -t keycloak-login .
+docker run -p 3000:3000 keycloak-login
+```
+Stop and Remove Containers:
 For a specific container.
 Code
-(```
+```
     docker stop <container_name_or_id>
     docker rm <container_name_or_id>
-```)
+```
 For all stopped containers.
 Code
 
-    (``` docker container prune```)
+    ``` docker container prune```
 
 
 This command removes all containers with an "Exited" or "Created" status. For Docker Compose projects. 
